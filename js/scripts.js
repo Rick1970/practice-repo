@@ -33,8 +33,12 @@ $(document).ready(function(){
   $("form#get-info").submit(function(event) {
     // this links the form input to the submit button
     newInput = $("input#input1").val();
-    // this collects the input and adds the value to the variable
+        // this collects the input and adds the value to the variable
+  $("#output").empty().append(newInput);
+  // this will append the id indicated in the html to display
+
     event.preventDefault();
+
 
 
 
